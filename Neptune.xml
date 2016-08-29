@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<raf>
+        <!-- wallpaper -->
+<model id="mdl_etoiles" file="ecosysteme\objets\etoiles.dae" />     
+<material id="mtrl_etoiles" effect="pure_texture" />
+<actor id="etoiles" model="mdl_etoiles" material="mtrl_etoiles" />
+
+        <!-- planetes -->
+<model id="mdl_planete" file="ecosysteme\objets\planete.dae" />
+
+<material id="mtrl_neptune" effect="basic_lighting" >
+        <texture file="ecosysteme\textures\neptune.jpg" type="color_map" />
+</material>
+<actor id="neptune" model="mdl_planete" material="mtrl_neptune" />
+
+        <!-- Evenements -->
+<model id="mdl_plan" file="ecosysteme\objets\plan.dae" />  
+
+<!-- etoile lumineuse -->   
+<material id="mtrl_etoile" effect="pure_texture" />
+<actor id="etoile" model="mdl_plan" material="mtrl_etoile" />
+
+<!-- galaxie -->  
+<material id="mtrl_galaxie" effect="pure_texture" >
+        <texture file="ecosysteme\textures\galaxie.jpg" />
+</material>
+<actor id="galaxie" model="mdl_plan" material="mtrl_galaxie" scale="5, 5, 5" />
+
+        <!-- autres -->
+<camera id="camera" type="perspective" yfov="0.927292" ymag="0" znear="0.01" zfar="1000" position="0, 0, 18" direction="0, 0, 0" up="0, 1, 0" />
+
+<light id="point_light" file="ecosysteme\objets\point_light.dae" type="point" position="-20, 0, 0" direction="100, 0, 0" attenuation="0, 0, 0" />
+
+<script file="Neptune.js" />
+
+</raf>

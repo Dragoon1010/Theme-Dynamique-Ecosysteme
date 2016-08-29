@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<raf>
+        <!-- wallpaper -->
+<model id="mdl_etoiles" file="ecosysteme\objets\etoiles.dae" />     
+<material id="mtrl_etoiles" effect="pure_texture" />
+<actor id="etoiles" model="mdl_etoiles" material="mtrl_etoiles" />
+
+        <!-- Planetes -->
+<model id="mdl_terre" file="ecosysteme\objets\terre.dae" />
+
+<material id="mtrl_terre" effect="basic_lighting_alpha_0" >
+        <texture file="ecosysteme\textures\terre.jpg" />
+</material>         
+
+<material id="mtrl_terre_nuage" effect="basic_lighting_alpha_add" >
+        <texture file="ecosysteme\textures\terre_nuage.jpg" />
+</material>
+
+<actor id="terre" model="mdl_terre" material="mtrl_terre" />
+<actor id="terre_nuage" model="mdl_terre" material="mtrl_terre_nuage" scale="1.04, 1.04, 1.04"  />
+
+<model id="mdl_lune" file="ecosysteme\objets\lune.dae" />
+
+<material id="mtrl_lune" effect="basic_lighting_alpha_0" >
+        <texture file="ecosysteme\textures\lune.jpg" />
+</material>
+<actor id="lune" model="mdl_lune" material="mtrl_lune" />
+
+        <!-- Evenements -->
+<model id="mdl_plan" file="ecosysteme\objets\plan.dae" />  
+
+<!-- etoile lumineuse -->   
+<material id="mtrl_etoile" effect="pure_texture" />
+<actor id="etoile" model="mdl_plan" material="mtrl_etoile" />
+
+<!-- soyouz -->
+<model id="mdl_soyouz" file="ecosysteme\objets\soyouz.dae" />
+<material id="mtrl_soyouz" effect="basic_lighting_alpha_0" >
+        <texture file="ecosysteme\textures\soyouz.jpg" />
+</material>
+<actor id="soyouz" model="mdl_soyouz" material="mtrl_soyouz" scale="0.50, 0.50, 0.50" />
+
+<!-- bootlogo -->
+<material id="mtrl_bootlogo" effect="pure_texture_alpha_add" >
+        <texture file="ecosysteme\textures\bootlogo.jpg" />
+</material>
+<actor id="bootlogo" model="mdl_plan" material="mtrl_bootlogo" scale="1.5, 0, 1.5" position="0, 0, 24" />
+
+        <!-- autres -->
+<camera id="camera" type="perspective" yfov="0.927292" ymag="0" znear="0.01" zfar="1000" position="0, 0, 25" direction="0, 0, 0" up="0, 1, 0" />
+<light id="point_light" file="ecosysteme\objets\point_light.dae" type="point" position="-150, 0, 0" attenuation="0, 0, 0" />
+
+<script file="Terre.js" />
+
+</raf>

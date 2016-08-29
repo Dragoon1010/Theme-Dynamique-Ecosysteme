@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<theme>
+	<bgimagetable>
+		<bgimage anim="Terre.raf"/>
+        <bgimage anim="Mercure.raf"/>
+        <bgimage anim="Mars.raf"/>        
+        <bgimage anim="saturne.raf"/>
+        <bgimage anim="jupiter.raf"/>
+        <bgimage anim="Neptune.raf"/>
+        <bgimage anim="saturne.raf"/>
+        <bgimage anim="Venus.raf"/>
+        <bgimage anim="Pluton.raf"/>
+        <bgimage anim="Uranus.raf"/>
+	</bgimagetable>
+	<infotable>
+		<info author="Dragoon1010 et Corwin" authoricon="icones/authoricon_1.gim.png" authoriconsize="16512" comment="Theme dynamique base sur les planetes du systeme solaire." genre="Espace" name="Ecosysteme" version="1.5" url="http://www.ps3gen.fr" preview="icones/preview_1.gim.png" previewsize="518528" icon="icones/icon_1.gim.png" iconsize="16512" mtime="200120112000000" />
+	</infotable>
+	<notification src="icones/src_1.gim.png"/>
+	<setable/>
+	<icontable>
+		<icon id="icon_datetime_setting" src="icones/icon_datetime_setting_1.gim.png"/>
+		<icon id="icon_bdvd_setting" src="icones/icon_bdvd_setting_1.gim.png"/>
+		<icon id="icon_friend" src="icones/icon_friend_1.gim.png"/>
+		<icon id="icon_vmc" src="icones/icon_vmc_1.gim.png"/>
+		<icon id="icon_photo" src="icones/icon_photo_1.gim.png"/>
+		<icon id="icon_blocklist" src="icones/icon_blocklist_1.gim.png"/>
+		<icon id="icon_newvmc" src="icones/icon_newvmc_1.gim.png"/>
+		<icon id="icon_music_album_default" src="icones/icon_music_album_default_1.gim.png"/>
+		<icon id="icon_music" src="icones/icon_music_1.gim.png"/>
+		<icon id="icon_network_setting" src="icones/icon_network_setting_1.gim.png"/>
+		<icon id="icon_printer_setting" src="icones/icon_printer_setting_1.gim.png"/>
+		<icon id="icon_onlinemanual" src="icones/icon_onlinemanual_1.gim.png"/>
+		<icon id="icon_chat_setting" src="icones/icon_chat_setting_1.gim.png"/>
+		<icon id="icon_newuser" src="icones/icon_newuser_1.gim.png"/>
+		<icon id="icon_sound_setting" src="icones/icon_sound_setting_1.gim.png"/>
+		<icon id="icon_download" src="icones/icon_download_1.gim.png"/>
+		<icon id="icon_accountmanage" src="icones/icon_accountmanage_1.gim.png"/>
+		<icon id="icon_usb" src="icones/icon_usb_1.gim.png"/>
+		<icon id="icon_video_album_default" src="icones/icon_video_album_default_1.gim.png"/>
+		<icon id="icon_mbox" src="icones/icon_mbox_1.gim.png"/>
+		<icon id="icon_photo_default" src="icones/icon_photo_default_1.gim.png"/>
+		<icon id="icon_usbaad" src="icones/icon_usbaad_1.gim.png"/>
+		<icon id="icon_theme_setting" src="icones/icon_theme_setting_1.gim.png"/>
+		<icon id="icon_default_v" src="icones/icon_default_v_1.gim.png"/>
+		<icon id="icon_chatroom" src="icones/icon_chatroom_1.gim.png"/>
+		<icon id="icon_game_setting" src="icones/icon_game_setting_1.gim.png"/>
+		<icon id="icon_mediaserver_search" src="icones/icon_mediaserver_search_1.gim.png"/>
+		<icon id="icon_ms" src="icones/icon_ms_1.gim.png"/>
+		<icon id="icon_pspms" src="icones/icon_pspms_1.gim.png"/>
+		<icon id="icon_setting" src="icones/icon_setting_1.gim.png"/>
+		<icon id="icon_savedata" src="icones/icon_savedata_1.gim.png"/>
+		<icon id="icon_music_default" src="icones/icon_music_default_1.gim.png"/>
+		<icon id="icon_mbox_received" src="icones/icon_mbox_received_1.gim.png"/>
+		<icon id="icon_remoteplay_setting" src="icones/icon_remoteplay_setting_1.gim.png"/>
+		<icon id="icon_sd" src="icones/icon_sd_1.gim.png"/>
+		<icon id="icon_default_h" src="icones/icon_default_h_1.gim.png"/>
+		<icon id="icon_accessory" src="icones/icon_accessory_1.gim.png"/>
+		<icon id="icon_chat" src="icones/icon_chat_1.gim.png"/>
+		<icon id="icon_browser" src="icones/icon_browser_1.gim.png"/>
+		<icon id="icon_music_setting" src="icones/icon_music_setting_1.gim.png"/>
+		<icon id="icon_tv" src="icones/icon_tv_1.gim.png"/>
+		<icon id="icon_video" src="icones/icon_video_1.gim.png"/>
+		<icon id="icon_video_default" src="icones/icon_video_default_1.gim.png"/>
+		<icon id="icon_addfriend" src="icones/icon_addfriend_1.gim.png"/>
+		<icon id="icon_setting_item" src="icones/icon_setting_item_1.gim.png"/>
+		<icon id="icon_remoteplay" src="icones/icon_remoteplay_1.gim.png"/>
+		<icon id="icon_playermet" src="icones/icon_playermet_1.gim.png"/>
+		<icon id="icon_display_setting" src="icones/icon_display_setting_1.gim.png"/>
+		<icon id="icon_system_setting" src="icones/icon_system_setting_1.gim.png"/>
+		<icon id="icon_network" src="icones/icon_network_1.gim.png"/>
+		<icon id="icon_mbox_create" src="icones/icon_mbox_create_1.gim.png"/>
+		<icon id="icon_update" src="icones/icon_update_1.gim.png"/>
+		<icon id="icon_game" src="icones/icon_game_1.gim.png"/>
+		<icon id="icon_cf" src="icones/icon_cf_1.gim.png"/>
+		<icon id="icon_user" src="icones/icon_user_1.gim.png"/>
+		<icon id="icon_mbox_sent" src="icones/icon_mbox_sent_1.gim.png"/>
+		<icon id="icon_photo_album_default" src="icones/icon_photo_album_default_1.gim.png"/>
+		<icon id="icon_gamedata" src="icones/icon_gamedata_1.gim.png"/>
+		<icon id="icon_usbcamera" src="icones/icon_usbcamera_1.gim.png"/>
+		<icon id="icon_security_setting" src="icones/icon_security_setting_1.gim.png"/>
+	</icontable>
+	<font/>
+	<color selection="1"/>
+	<pointertable>
+		<pointer base_x="16" base_y="10" id="pointer_click" src="icones/pointer_click_1.gim.png"/>
+		<pointer base_x="20" base_y="2" id="pointer_arrow" src="icones/pointer_arrow_1.gim.png"/>
+		<pointer base_x="6" base_y="38" id="pointer_pen" src="icones/pointer_pen_1.gim.png"/>
+		<pointer base_x="23" base_y="17" id="pointer_hand" src="icones/pointer_hand_1.gim.png"/>
+		<pointer base_x="16" base_y="10" id="pointer_finger" src="icones/pointer_finger_1.gim.png"/>
+		<pointer base_x="23" base_y="17" id="pointer_grab" src="icones/pointer_grab_1.gim.png"/>
+	</pointertable>
+</theme>

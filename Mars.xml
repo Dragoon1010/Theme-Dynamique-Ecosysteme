@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<raf>
+        <!-- wallpaper -->
+<model id="mdl_etoiles" file="ecosysteme\objets\etoiles.dae" />     
+<material id="mtrl_etoiles" effect="pure_texture" />
+<actor id="etoiles" model="mdl_etoiles" material="mtrl_etoiles" />
+
+        <!-- planetes -->
+<model id="mdl_planete" file="ecosysteme\objets\planete.dae" />
+
+<material id="mtrl_mars" effect="basic_lighting" >
+        <texture file="ecosysteme\textures\mars.jpg" type="color_map" />
+</material>
+<actor id="mars" model="mdl_planete" material="mtrl_mars" />
+
+        <!-- lunes -->
+<model id="mdl_deimos" file="ecosysteme\objets\deimos.dae" />
+
+<material id="mtrl_deimos" effect="basic_lighting" >
+        <texture file="ecosysteme\textures\deimos.jpg" type="color_map" />
+</material>
+<actor id="deimos" model="mdl_deimos" material="mtrl_deimos" />
+
+<model id="mdl_phobos" file="ecosysteme\objets\phobos.dae" />
+
+<material id="mtrl_phobos" effect="basic_lighting" >
+        <texture file="ecosysteme\textures\phobos.jpg" type="color_map" />
+</material>
+<actor id="phobos" model="mdl_phobos" material="mtrl_phobos" />
+
+        <!-- Evenements -->
+<model id="mdl_plan" file="ecosysteme\objets\plan.dae" />  
+
+<!-- etoile lumineuse -->   
+<material id="mtrl_etoile" effect="pure_texture" />
+<actor id="etoile" model="mdl_plan" material="mtrl_etoile" />
+
+<!-- bootlogo -->
+<material id="mtrl_bootlogo" effect="pure_texture_alpha_add" >
+        <texture file="ecosysteme\textures\bootlogo.jpg" />
+</material>
+<actor id="bootlogo" model="mdl_plan" material="mtrl_bootlogo" scale="1.5, 0, 1.5" position="0, 0, 24" />
+
+        <!-- autres -->
+<camera id="camera" type="perspective" yfov="0.927292" ymag="0" znear="0.01" zfar="1000" position="0, 0, 25" direction="0, 0, 0" up="0, 1, 0" />
+
+<light id="point_light" file="ecosysteme\objets\point_light.dae" type="point" position="-20, 0, 0" direction="100, 0, 0" attenuation="0, 0, 0" />
+
+<script file="Mars.js" />
+
+</raf>
